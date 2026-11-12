@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model weights
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Datasets
+datasets/
+
+# Benchmark outputs
+results/
+logs/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
